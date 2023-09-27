@@ -3,53 +3,39 @@
 }
 img {
   max-width: 300px;
-  display: flex-wrap;
+  display: flex;
 }
-h1  {
-  font-size: 35px;
-}
-h1 a {
+section.header {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-h2{
-  padding: 10px;
-}
-section {
-  border: 3px solid black;
-  margin: 10px;
-  display: flex-wrap;
-  flex-direction: row;
-  max-width: 100%;
-  justify-content: center;
-}
-section p {
-  font-weight: bold;
-  font-size: large;
-  max-width: 25%;
-}  
-section li a {
-  display: flex-wrap;
-  align-items: center;
   justify-content: flex-end;
 }
-section.contact {
-  display: inline-flex;
+section.about-me {
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+  justify-content: center;
+  margin-left: 12%;
+}
+section.work {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 12%;
+  width: 75%;
+  background-color: aqua;
 }
 li {
   display: inline;
-  justify-content: flex-end;
 }
-body {
-  display: inline;
+p.work {
+  flex-basis: content;
+}
+div.first-project {
+  width:50%;
+  display: inline-flex;
 }
 div {
-  border: 2px solid black;
-  margin: 5px;
-  max-width: 35%;
-  justify-content: center;
-  align-items: center;
-  display: inline-flex;
-}  
+  flex-wrap: wrap;
+  max-width: 43%;
+}
