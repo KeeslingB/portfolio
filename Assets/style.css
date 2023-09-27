@@ -1,41 +1,125 @@
 * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+body{
+  /* background-color: rgb(28, 28, 121); */
+  background-image: url(./background-image.webp);
+  height: 100%;
+}
 img {
-  max-width: 300px;
+  max-width: 400px;
+}
+h2 {
   display: flex;
 }
 section.header {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  align-items: center;
 }
 section.about-me {
   display: flex;
   flex-wrap: wrap;
-  width: 75%;
+  width: 25%;
+  margin-left: 40%;
   justify-content: center;
-  margin-left: 12%;
+  align-items: center;
 }
 section.work {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5%;
+}
+section#work {
+  display: flex;
   justify-content: center;
-  margin-left: 12%;
-  width: 75%;
-  background-color: aqua;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+section#contact {
+  display: flex;
+  justify-content: space-evenly;
+  border: 2px solid black;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  background-color: beige;
+  align-items: center;
 }
 li {
   display: inline;
+  padding: 5px;
+  margin: 5px;
 }
 p.work {
   flex-basis: content;
 }
+div.work {
+  flex-wrap: wrap;
+  flex-basis: 20%;
+  align-content: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  justify-content: center;
+  background-color: beige;
+}
+div.image {
+  border: 1px solid black;
+  display: flex;
+  background-image: url(./header-background-image.jpg);
+  width: 100%;
+  justify-content: flex-end;
+}
+div#work {
+  display: flex;
+}
 div.first-project {
-  width:50%;
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 350px;
+  margin: auto;
+}
+div.python {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  height: 350px;
+  width: 250px;
+  margin: auto;
+}
+div.javascript {
+  display: flex;
+  justify-content: center;
+  height: 350px;
+  width: 250px;
+  margin: auto;
+}
+div.react {
+  display: flex;
+  justify-content: center;
+  height: 350px;
+  width: 250px;
+  margin: auto;
+}
+div p {
+  font-weight: bold;
+  padding: 5px;
+}
+div.name {
   display: inline-flex;
 }
-div {
-  flex-wrap: wrap;
-  max-width: 43%;
+img.resume {
+  margin: 10px;
+  max-width: 300px;
+}
+a img:hover {
+  opacity: 0.6;
+}
+a img {
+  display: inline-flex;
+  justify-content: center;
+  width: fit-content;
 }
