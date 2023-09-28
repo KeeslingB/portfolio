@@ -15,8 +15,8 @@ Google- https://www.google.com/
 ## Project Links
 
 ![Alt text](project-image-02homework.png)
-<!-- 
-Here is a link to the project shown above : file:///C:/Users/breke/Documents/bootcamp/homework/02-Challenge/index.html -->
+ 
+Here is a link to the project shown above : https://keeslingb.github.io/portfolio/
 
 ## Test
  -within the projects header you can click on the navs that will bring you to the corresponding section.
