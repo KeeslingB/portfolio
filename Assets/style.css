@@ -9,8 +9,6 @@ body{
   background-image: url(./background-image.webp);
   height: 100%;
 }
-h1 {
-}
 h2 {
   flex-wrap: wrap;
 }
@@ -27,7 +25,6 @@ section.about-me {
   justify-content: center;
 }
 /* section.work is flex container for work divs */
-
 section.work {
   display: inline-flex;
   flex-direction: row;
@@ -70,9 +67,7 @@ div.image {
   width: 100%;
   justify-content: flex-end;
 }
-
 /* div.work1-4 are the flex items */
-
 div.work1 {
   height: 350px;
   width: 100%;
@@ -90,7 +85,6 @@ div.work3 {
   flex-basis: content;
   background-color:var(--div-bg-color);
   padding: 20px;
-  
 }
 div.work2 {
   height: 350px;
